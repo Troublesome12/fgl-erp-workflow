@@ -101,10 +101,10 @@ docker compose down -v       # Stop and remove database volume
 │  │  React/Vite  │     │   Django REST API    │  │
 │  │  Port: 3000  │     │   Port: 8000         │  │
 │  └──────────────┘     └──────────┬───────────┘  │
-│                                  │               │
+│                                  │              │
 │                       ┌──────────▼───────────┐  │
-│                       │   PostgreSQL 16       │  │
-│                       │   Port: 5432          │  │
+│                       │   PostgreSQL 16      │  │
+│                       │   Port: 5432         │  │
 │                       └──────────────────────┘  │
 └─────────────────────────────────────────────────┘
 ```
